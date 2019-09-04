@@ -22,7 +22,7 @@ const mapOptions = props => {
 
   let profileName = cookies.get("profile-name");
   if (!profileName) {
-    profileName = "FSI";
+    profileName = "default";
   }
   console.log({ profileId });
   console.log({ profileName });
